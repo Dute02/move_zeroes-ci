@@ -19,7 +19,7 @@ void moveZeroes(int* nums, int numsSize) {
 }
 
 int main() {
-    int nums[] = {0,1,0,3,12,0,2,4,12,0,23,2,1,0,5,0;
+    int nums[] = {0,1,0,3,12,0,2,4,12,0,23,2,1,0,5,0};
     int numsSize = sizeof(nums) / sizeof(nums[0]);
     moveZeroes(nums, numsSize);
     printf("Output: [");
